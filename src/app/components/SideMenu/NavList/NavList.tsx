@@ -18,8 +18,8 @@ const NavList = () => {
     },
     {
       id: 2,
-      label: 'Compleated Tasks',
-      link: '/compleated',
+      label: 'Completed Tasks',
+      link: '/completed',
       icon: <FaRegCheckSquare className="size-5" />
     },
     {
