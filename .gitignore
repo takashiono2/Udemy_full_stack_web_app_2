@@ -38,3 +38,6 @@ package.json
 
 # favicon
 src/app/*.ico
+
+#.env
+.env
