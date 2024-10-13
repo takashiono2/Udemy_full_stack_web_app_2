@@ -1,4 +1,4 @@
-import EditTaskForm from "@/app/components/EditTaskForm/EditTaskForm";
+import EditTaskForm from "@/components/EditTaskForm/EditTaskForm";
 import { TaskDocument } from "@/models/task";
 
 interface Params {

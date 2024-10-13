@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { MdAddTask } from "react-icons/md";
-import TaskCard from "../components/TaskCard/TaskCard";
 import { TaskDocument } from "@/models/task";
+import TaskCard from "@/components/TaskCard/TaskCard";
 
 const getAllTasks = async (): Promise<TaskDocument[]> => {
   const response = await fetch(`${process.env.API_URL}/tasks`, {
